@@ -11,14 +11,14 @@
   </div>
 
   <div class="stat">
-    <div class="stat-title">New Users</div>
-    <div class="stat-value">4,200</div>
-    <div class="stat-desc">↗︎ 400 (22%)</div>
+    <div class="stat-title">Uppercase Pipe</div>
+    <div class="stat-value">{{ nameLower() | uppercase }}</div>
+    <div class="stat-desc">{{ nameLower() }}</div>
   </div>
 
   <div class="stat">
-    <div class="stat-title">New Registers</div>
-    <div class="stat-value">1,200</div>
-    <div class="stat-desc">↘︎ 90 (14%)</div>
+    <div class="stat-title">TitleCase Pipe</div>
+    <div class="stat-value">{{ fullName() | titlecase }}</div>
+    <div class="stat-desc">{{ fullName() }}</div>
   </div>
 </div>
